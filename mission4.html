@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> 
+<head>
+	<title>登录界面</title>
+</head>
+<style type="text/css">
+    .submit{
+        width:100%;
+        height: 3.5rem;
+        background-color: #5fc0cd;
+        border: 0;
+        font-size: 1.2rem;
+        color: white;
+            	    }
+
+</style>
+<body style="margin:0 auto; background-color: #eff0f4">
+
+<div style="background-color: #5fc0cd;width=100%; height: 3rem;line-height: 1rem; text-align: center;">
+   <div style="float: left;margin-left: 1rem;">
+     <p style="color:white;"><a href="/mission4.html">注册</a></p>
+   </div>
+
+   <div style="float: right;margin-right: 1rem;">
+     <p style="color:white;"><a href="/mission4.html">关闭</a></p>
+   </div>
+
+   <div style="padding-top: 1rem;">
+     <p style="color: white;font-size: 1.2rem;margin: 0;padding: 0;">登录</p>
+   </div>
+</div>
+
+<div style="
+        width: 100%;
+        height: 3rem;      
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        background-color: white;">
+    <div style="float: left;">
+      <img src="images/up.png" width="80rem" height="50rem" ">  
+    </div>  
+    <div>
+      <input type="text" name="id" placeholder="请输入手机号" maxlength="11"  onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" style="-web-kit-appearance:none;
+    	width: 50%; 
+        height: 3rem;
+        margin:0;
+        padding:0;
+        border:0;
+        font-size: 1rem;">
+    </div>
+</div>
+<div style="
+        width: 100%;
+        height: 3rem;      
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        background-color: white;">
+    <div style="float: left;">
+    <img src="images/down.png" width="80rem" height="50rem" ">
+    </div> 
+    <div style="float: left;">
+    <input type="password" placeholder="请输入密码" name="code" maxlength="15" style="-web-kit-appearance:none;
+    	width: 100%; 
+    	height: 3rem;
+        border:0;
+        margin: 0;
+        padding: 0;
+        font-size: 1rem;
+       ">
+    </div>
+</div>
+
+<input type="submit"  class="submit" value="登       录" >
+
+
+<p style="float: right; color: #5fc0cd;"><a href="/mission4.html"><u>忘记密码</u></a> &nbsp&nbsp</p>
+
+</body>
+</html>
