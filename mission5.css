@@ -19,7 +19,7 @@
             left: 1.5em;
             height: 1.5em;
             width: 1.5em;
-            background-image: url(images/task5-7_03.png);
+            background-image: url(task5-7_03.png);
             background-size: 1.5em;
             z-index: 2;
         }
@@ -40,7 +40,7 @@
             margin-top: 3em;
             height: 11em;
             width:100%;
-            background-image: url(images/task5-1_02.png);
+            background-image: url(task5-1_02.png);
             background-size: 100% 100%;
         }
         .hi_avatar{
